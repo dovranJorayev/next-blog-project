@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Next.js",
+    "slug": "getting-started-with-nextjs",
+    "excerpt": "Learn how to build modern React applications with Next.js",
+    "content": "Next.js is a powerful React framework that gives you building blocks to create web applications. By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.\n\nYou can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, integrations - all while improving the developer and end-user experience.\n\nWhether you're an individual developer or part of a larger team, you can leverage React and Next.js to build fully interactive, highly dynamic, and performant web applications.",
+    "author": "John Doe",
+    "publishedAt": "2023-09-15T10:00:00Z",
+    "readTime": "5 min"
+  },
+  {
+    "id": 2,
+    "title": "Server Components in React",
+    "slug": "server-components-in-react",
+    "excerpt": "Understand the power of React Server Components",
+    "content": "React Server Components allow developers to build applications that span the server and client, combining the rich interactivity of client-side apps with the improved performance of traditional server rendering.\n\nServer Components let you render components on the server, reducing the JavaScript sent to the client, improving performance and SEO. They can access server-side resources directly (like databases or filesystems) and keep large dependencies on the server.\n\nThis pattern allows you to split your app into different environments, enabling you to choose the best approach for each part of your application. The result is a more performant application with a great end-user experience.",
+    "author": "Jane Smith",
+    "publishedAt": "2023-10-20T14:30:00Z",
+    "readTime": "8 min"
+  },
+  {
+    "id": 3,
+    "title": "Building a Blog with Next.js",
+    "slug": "building-a-blog-with-nextjs",
+    "excerpt": "Create a fully featured blog using Next.js and React",
+    "content": "Creating a blog with Next.js provides an excellent way to showcase your writing while learning about modern web development. In this article, we'll explore how to create a blog from scratch using Next.js.\n\nWe'll cover setting up your project, creating pages and layouts, adding markdown support, implementing dynamic routing, and deploying your site. By the end, you'll have a fast, SEO-friendly blog that's easy to update and maintain.\n\nNext.js's built-in features like static site generation and server-side rendering make it perfect for content-focused sites like blogs, providing the best of both worlds: developer experience and performance.",
+    "author": "Alex Johnson",
+    "publishedAt": "2023-11-05T09:15:00Z",
+    "readTime": "10 min"
+  },
+  {
+    "id": 4,
+    "title": "Advanced Data Fetching in Next.js",
+    "slug": "advanced-data-fetching-in-nextjs",
+    "excerpt": "Learn about the different data fetching strategies in Next.js",
+    "content": "Next.js provides several ways to fetch data for your application, each designed for different use cases. Understanding these methods is key to building performant applications.\n\nIn this comprehensive guide, we'll explore Server Components, Client Components, Route Handlers, and more. We'll discuss when to use each approach and how they impact your application's performance and user experience.\n\nWe'll also cover advanced topics like caching strategies, revalidation options, and how to properly structure your data fetching logic for optimal results. By the end, you'll have a solid understanding of the Next.js data fetching ecosystem.",
+    "author": "Maria Garcia",
+    "publishedAt": "2023-12-10T11:45:00Z",
+    "readTime": "12 min"
+  },
+  {
+    "id": 5,
+    "title": "Styling in Modern React Applications",
+    "slug": "styling-in-modern-react-applications",
+    "excerpt": "Explore different styling approaches for React applications",
+    "content": "Styling in React has evolved significantly over the years, with numerous approaches available to developers. From traditional CSS to CSS-in-JS libraries, the ecosystem offers plenty of options.\n\nIn this article, we'll explore popular styling methods including CSS Modules, Tailwind CSS, styled-components, and more. We'll compare their pros and cons, and provide guidance on choosing the right approach for your project.\n\nWe'll also discuss how these styling methods integrate with Next.js, and how they impact performance, developer experience, and maintainability. By understanding the trade-offs, you can make informed decisions about styling in your React applications.",
+    "author": "David Kim",
+    "publishedAt": "2024-01-18T13:20:00Z",
+    "readTime": "7 min"
+  },
+  {
+    "id": 6,
+    "title": "Styling in Modern React Applications 2",
+    "slug": "styling-in-modern-react-applications-2",
+    "excerpt": "Explore different styling approaches for React applications",
+    "content": "Styling in React has evolved significantly over the years, with numerous approaches available to developers. From traditional CSS to CSS-in-JS libraries, the ecosystem offers plenty of options.\n\nIn this article, we'll explore popular styling methods including CSS Modules, Tailwind CSS, styled-components, and more. We'll compare their pros and cons, and provide guidance on choosing the right approach for your project.\n\nWe'll also discuss how these styling methods integrate with Next.js, and how they impact performance, developer experience, and maintainability. By understanding the trade-offs, you can make informed decisions about styling in your React applications.",
+    "author": "David Kim",
+    "publishedAt": "2024-01-18T13:20:00Z",
+    "readTime": "7 min"
+  }, {
+    "id": 7,
+    "title": "Styling in Modern React Applications 3",
+    "slug": "styling-in-modern-react-applications-3",
+    "excerpt": "Explore different styling approaches for React applications",
+    "content": "Styling in React has evolved significantly over the years, with numerous approaches available to developers. From traditional CSS to CSS-in-JS libraries, the ecosystem offers plenty of options.\n\nIn this article, we'll explore popular styling methods including CSS Modules, Tailwind CSS, styled-components, and more. We'll compare their pros and cons, and provide guidance on choosing the right approach for your project.\n\nWe'll also discuss how these styling methods integrate with Next.js, and how they impact performance, developer experience, and maintainability. By understanding the trade-offs, you can make informed decisions about styling in your React applications.",
+    "author": "David Kim",
+    "publishedAt": "2024-01-18T13:20:00Z",
+    "readTime": "7 min"
+  }
+] 
