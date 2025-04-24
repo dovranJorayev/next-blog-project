@@ -4,7 +4,7 @@ import { Article } from './types';
 const API_URL = 'http://localhost:3001/api';
 
 // Fetch all articles with cache
-export async function getArticles(): Promise<Article[]> {
+export async function getArticles(): Promise<{articles: Article[]}> {
   const res = await fetch(`${API_URL}/articles`, {
     // This option enables caching and makes the page static
     // Use force-cache for longer-term caching
@@ -21,7 +21,7 @@ export async function getArticles(): Promise<Article[]> {
   return res.json().catch((error) => {
     console.error('Error getArticles json:', error);
     throw error;
-  });;
+  });
 }
 
 // Fetch a single article by slug with cache

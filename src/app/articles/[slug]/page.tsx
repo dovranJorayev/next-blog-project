@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { draftMode } from 'next/headers'
+
 export const dynamic = 'force-static';
 export const dynamicParams = true;
 
@@ -31,7 +33,7 @@ export async function generateMetadata({
 
 // Generate static params for all articles
 export async function generateStaticParams() {
-  const articles = await getArticles();
+  const {articles} = await getArticles();
 
   return articles.map((article) => ({
     slug: article.slug,
@@ -44,8 +46,15 @@ export default async function ArticlePage({
   params: Promise<{ slug: string }>
 }) {
   try {
+    const draft = await draftMode();
+    if (draft.isEnabled) console.log('Draft mode is enabled');
+    else console.log('Draft mode is disabled');
+
     const { slug } = await params;
-    const article = await getArticleBySlug(slug);
+    const article = await getArticleBySlug(slug).catch(e => {
+      console.error('Error fetching article:', e);
+      throw e;
+    });
 
     return (
       <div className="container mx-auto px-4 py-8 max-w-3xl">

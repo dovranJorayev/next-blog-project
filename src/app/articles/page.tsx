@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default async function ArticlesPage() {
-  const articles = await getArticles();
+  const {articles} = await getArticles();
 
   return (
     <div className="container mx-auto px-4 py-8">
